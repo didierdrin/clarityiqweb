@@ -2,7 +2,7 @@
   display: grid;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   align-content: flex-start;
   justify-items: center;
@@ -20,10 +20,11 @@
 }
 .root > * {
   grid-column: 4;
+  width: 100vw;
 }
 .wireframe1 {
   background: rgba(255, 255, 255, 1);
-  width: 1440px;
+  width: 100vw;
   height: 1660px;
   display: block;
   overflow: hidden;
@@ -32,7 +33,7 @@
   background: rgba(249, 249, 250, 1);
   filter: drop-shadow(0px 3px 3px rgba(17, 14, 39, 0.119));
   transform: translate(0px, -0.5px);
-  width: 1440px;
+  width: 100vw;
   height: 1659px;
   display: block;
   position: absolute;
@@ -53,7 +54,7 @@
 }
 .svg__m6Bdn {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #323743;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -67,7 +68,7 @@
 }
 .svg__qc9Jx {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #323743;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -92,7 +93,7 @@
 }
 .rectangle {
   background: url("./images/rectangle.png") 0px 0px / 36px 36px no-repeat;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: block;
   position: absolute;
@@ -124,7 +125,7 @@
 }
 .svg__htox4 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #171a1f;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 20px;
@@ -183,7 +184,7 @@
 }
 .svg__xiXAq {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -221,7 +222,7 @@
 }
 .svg__sb9KL {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -235,7 +236,7 @@
 }
 .svg___7D7Ic {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #f3f4f6;
   width: 220px;
   height: 2px;
@@ -246,7 +247,7 @@
 }
 .svg___8Onbk {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #f3f4f6;
   width: 220px;
   height: 2px;
@@ -290,7 +291,7 @@
 }
 .svg__sgUvz {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -328,7 +329,7 @@
 }
 .svg__kpkEn {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -366,7 +367,7 @@
 }
 .svg__jcOz9 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -404,7 +405,7 @@
 }
 .svg__hmSsm {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -442,7 +443,7 @@
 }
 .svg__bDe5I {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -565,7 +566,7 @@
 }
 .svg__zcSzp {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #62cd14;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -620,7 +621,7 @@
 }
 .svg___4Gs16 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #dee1e6;
   width: 502px;
   height: 172px;
@@ -632,7 +633,7 @@
 .frame10 {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, -0.40000000000000036px);
-  width: 100%;
+  width: 100vw;
   height: 90.11%;
   display: block;
   position: absolute;
@@ -641,7 +642,7 @@
 }
 .svg__iFcTx {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #62cd14;
   width: 502px;
   height: 154.8px;
@@ -763,7 +764,7 @@
 }
 .svg__nt8YY {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #0e642a;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -819,7 +820,7 @@
 }
 .svg__rv5Io {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #171a1f;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 14px;
@@ -833,7 +834,7 @@
 }
 .svg___5KcW7 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #171a1f;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 14px;
@@ -922,7 +923,7 @@
 }
 .svg__owoK2 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 16px;
@@ -1062,7 +1063,7 @@
 }
 .svg__sdWb3 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 16px;
@@ -1151,7 +1152,7 @@
 }
 .svg__xo7W {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 16px;
@@ -1190,7 +1191,7 @@
 }
 .svg__hB7M {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 16px;
@@ -1227,7 +1228,7 @@
 }
 .svg__blarJ {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #171a1f;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 14px;
@@ -1255,7 +1256,7 @@
 .row {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, 0.010000000000005116px);
-  width: 100%;
+  width: 100vw;
   height: 17.24%;
   display: block;
   position: absolute;
@@ -1275,7 +1276,7 @@
 }
 .svg__ahEoR {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg)
     translate(-0.4399999999999977px, -0.10099999999999909px);
@@ -1382,7 +1383,7 @@
 .row2 {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, -0.1910000000000025px);
-  width: 100%;
+  width: 100vw;
   height: 17.24%;
   display: block;
   position: absolute;
@@ -1494,7 +1495,7 @@
 }
 .svg__ur2Ua {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg)
     translate(-0.4399999999999977px, -0.10099999999999909px);
@@ -1510,7 +1511,7 @@
 .row3 {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, -0.38999999999998636px);
-  width: 100%;
+  width: 100vw;
   height: 17.24%;
   display: block;
   position: absolute;
@@ -1557,7 +1558,7 @@
 }
 .svg__tden3 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg)
     translate(-0.4399999999999977px, -0.10099999999999909px);
@@ -1637,7 +1638,7 @@
 .row4 {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, 0.410000000000025px);
-  width: 100%;
+  width: 100vw;
   height: 17.24%;
   display: block;
   position: absolute;
@@ -1685,7 +1686,7 @@
 }
 .svg__aXv0O {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg)
     translate(-0.4399999999999977px, -0.10099999999999909px);
@@ -1792,7 +1793,7 @@
 .row5 {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, 0.20900000000000318px);
-  width: 100%;
+  width: 100vw;
   height: 17.24%;
   display: block;
   position: absolute;
@@ -1860,7 +1861,7 @@
 }
 .svg__kCm97 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg)
     translate(-0.4399999999999977px, -0.10099999999999909px);
@@ -1946,7 +1947,7 @@
 }
 .header {
   background: rgba(0, 0, 0, 0);
-  width: 100%;
+  width: 100vw;
   height: 14.16%;
   display: block;
   position: absolute;
@@ -2152,7 +2153,7 @@
 }
 .svg__i2Ex0 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #dee1e6;
   width: 708px;
   height: 417px;
@@ -2526,7 +2527,7 @@
 }
 .svg___4QHxW {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -2549,7 +2550,7 @@
 }
 .img {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   width: 262px;
   height: 262px;
   display: block !important;
@@ -2579,7 +2580,7 @@
 }
 .svg__mYlQ {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #119746;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 12px;
@@ -2612,7 +2613,7 @@
 }
 .svg___8E2GW {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #8fe8b3;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 12px;
@@ -2645,7 +2646,7 @@
 }
 .svg___1Ijs {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #62cd14;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 12px;
@@ -2695,7 +2696,7 @@
 }
 .svg___9Ngv4 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -2709,7 +2710,7 @@
 }
 .svg___32Ura {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #000;
   transform: rotate(90deg) translate(0px, -0.5px);
   width: 325px;
@@ -2722,7 +2723,7 @@
 }
 .svg__qbe5W {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #000;
   transform: rotate(90deg) translate(0px, -0.5px);
   width: 325px;

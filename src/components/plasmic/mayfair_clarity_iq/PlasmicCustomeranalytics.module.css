@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: auto;
   justify-content: flex-start;
   align-items: center;
@@ -10,7 +10,7 @@
 }
 .wireframe9 {
   background: rgba(255, 255, 255, 1);
-  width: 1440px;
+  width: 100vw;
   height: 1024px;
   display: block;
   overflow: hidden;
@@ -19,7 +19,7 @@
 .dataTable {
   background: rgba(255, 255, 255, 1);
   filter: drop-shadow(0px 3px 3px rgba(17, 14, 39, 0.119));
-  width: 1440px;
+  width: 100vw;
   height: 1024px;
   display: block;
   position: absolute;
@@ -55,7 +55,7 @@
 }
 .svg__bzobn {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #6d31ed;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 16px;
@@ -92,7 +92,7 @@
 }
 .rectangle {
   background: url("./images/rectangle2.png") 0px 0px / 36px 36px no-repeat;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: block;
   position: absolute;
@@ -126,7 +126,7 @@
 }
 .svg__qtOl2 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 16px;
@@ -140,7 +140,7 @@
 }
 .svg__o3UX0 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #323743;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -154,7 +154,7 @@
 }
 .svg__lly0H {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #323743;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -220,7 +220,7 @@
 }
 .svg__nx6AU {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 12px;
@@ -337,7 +337,7 @@
 }
 .svg__n6Jdd {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 12px;
@@ -426,7 +426,7 @@
 }
 .svg__l5Sg {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #9095a1;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 12px;
@@ -527,7 +527,7 @@
 }
 .svg__kiHcn {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #6f7787;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -565,7 +565,7 @@
 }
 .svg__aJrwh {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -579,7 +579,7 @@
 }
 .svg__dJDd {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #f3f4f6;
   width: 220px;
   height: 2px;
@@ -590,7 +590,7 @@
 }
 .svg__wAyOt {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #f3f4f6;
   width: 220px;
   height: 2px;
@@ -634,7 +634,7 @@
 }
 .svg__hAv8R {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -672,7 +672,7 @@
 }
 .svg__h3Ynu {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -710,7 +710,7 @@
 }
 .svg__jXmUc {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -748,7 +748,7 @@
 }
 .svg__wNNb {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -786,7 +786,7 @@
 }
 .svg__fTkLa {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #565d6d;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -825,7 +825,7 @@
 .row {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, 0.3990000000000009px);
-  width: 100%;
+  width: 100vw;
   height: 20.46%;
   display: block;
   position: absolute;
@@ -996,7 +996,7 @@
 .row2 {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, -0.20100000000002183px);
-  width: 100%;
+  width: 100vw;
   height: 20.46%;
   display: block;
   position: absolute;
@@ -1167,7 +1167,7 @@
 .row3 {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, 0.19999999999998863px);
-  width: 100%;
+  width: 100vw;
   height: 20.46%;
   display: block;
   position: absolute;
@@ -1338,7 +1338,7 @@
 .row4 {
   background: rgba(0, 0, 0, 0);
   transform: translate(0px, -0.4009999999999536px);
-  width: 100%;
+  width: 100vw;
   height: 20.46%;
   display: block;
   position: absolute;
@@ -1492,7 +1492,7 @@
 }
 .header {
   background: rgba(0, 0, 0, 0);
-  width: 100%;
+  width: 100vw;
   height: 18.54%;
   display: block;
   position: absolute;

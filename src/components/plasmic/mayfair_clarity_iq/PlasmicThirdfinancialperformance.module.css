@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: auto;
   justify-content: flex-start;
   align-items: center;
@@ -10,7 +10,7 @@
 }
 .container39 {
   background: rgba(255, 255, 255, 1);
-  width: 1440px;
+  width: 100vw;
   height: 600px;
   display: block;
   flex-shrink: 0;
@@ -49,7 +49,7 @@
 }
 .svg__kEiF7 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #6f7787;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 24px;
@@ -110,7 +110,7 @@
 }
 .svg__dq5D4 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #bdc1ca;
   width: 2px;
   height: 253px;
@@ -321,7 +321,7 @@
 }
 .svg___913IW {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #bdc1ca;
   width: 2px;
   height: 253px;

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: auto;
   justify-content: flex-start;
   align-items: center;
@@ -20,7 +20,7 @@
 }
 .svg__fqUwa {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   width: 24px;
   height: 12px;
@@ -31,7 +31,7 @@
 }
 .container98 {
   background: rgba(255, 255, 255, 1);
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: block;
   position: absolute;
@@ -74,7 +74,7 @@
 }
 .svg__we9SM {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #171a1f;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 16px;
@@ -313,7 +313,7 @@
 }
 .svg__bYQi {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #171a1f;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 16px;

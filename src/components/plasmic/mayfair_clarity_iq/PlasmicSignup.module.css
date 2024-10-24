@@ -2,7 +2,7 @@
   display: grid;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   align-content: flex-start;
   justify-items: center;
@@ -23,13 +23,13 @@
 }
 .wireframe18 {
   background: rgba(255, 255, 255, 1);
-  width: 1440px;
+  width: 100vw;
   height: 1024px;
   display: block;
   overflow: hidden;
 }
 .group {
-  width: 1440px;
+  width: 100vw;
   height: 1024px;
   display: block;
   position: absolute;
@@ -39,7 +39,7 @@
 .signUpWithOnlyEmail {
   background: rgba(255, 255, 255, 1);
   filter: drop-shadow(0px 3px 3px rgba(17, 14, 39, 0.119));
-  width: 1440px;
+  width: 100vw;
   height: 1024px;
   display: block;
   position: absolute;
@@ -49,7 +49,7 @@
 }
 .svg__bkRiB {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 36px;
@@ -63,7 +63,7 @@
 }
 .svg__i5Re8 {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   transform: scale(0.9997924784674068, 0.9998794965255274)
     rotate(4.992081166091648deg) skew(-0.057090269971081374deg, 0deg)
@@ -79,7 +79,7 @@
 }
 .svg__q3BK {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   transform: scale(0.9997924784674068, 0.9998794965255274)
     rotate(4.992081166091648deg) skew(-0.057090269971081374deg, 0deg)
@@ -163,7 +163,7 @@
 }
 .svg___8NmZm {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 20px;
@@ -203,7 +203,7 @@
 }
 .svg___1HvW {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 20px;
@@ -243,7 +243,7 @@
 }
 .svg__dfDjt {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #fff;
   transform: skew(-0.057295760414500616deg, 0deg);
   width: 20px;
@@ -346,7 +346,7 @@
 }
 .svg__jsZnp {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 100vw;
   color: #dee1e6;
   transform: translate(-0.21599999999999397px, 0.2370000000000232px);
   width: 507px;

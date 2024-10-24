@@ -295,7 +295,7 @@
 }
 .plasmic_page_wrapper {
   display: flex;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   align-items: stretch;
   align-self: start;
