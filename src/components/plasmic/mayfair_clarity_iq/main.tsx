@@ -13,6 +13,7 @@
 
 import * as React from "react";
 
+
 import {
   Flex as Flex__,
   MultiChoiceArg,
@@ -87,6 +88,10 @@ import Menu51Icon from "./icons/PlasmicIcon__Menu51"; // plasmic-import: QnHOpjV
 import EllipseIcon from "./icons/PlasmicIcon__Ellipse"; // plasmic-import: OL9uoJ4OqaKE/icon
 import Line40Icon from "./icons/PlasmicIcon__Line40"; // plasmic-import: b_URD0RDolM4/icon
 import chartRt8T6Nkpz3Qc from "./images/chart.svg"; // plasmic-import: RT8T6nkpz3Qc/picture
+import DashboardSection from "./mdashboardsection";
+import Dinaggregation from "./mdinaggregation";
+import Thirdfinancialperformance from "../../Thirdfinancialperformance";
+//import Thirdfinancialperformance from "../../Thirdfinancialperformance";
 
 createPlasmicElementProxy;
 
@@ -278,6 +283,7 @@ function PlasmicDashboard__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
+  const [activeSection, setActiveSection] = React.useState<string>("Dashboard"); 
   return (
     <React.Fragment>
       <div className={projectcss.plasmic_page_wrapper}>
@@ -365,10 +371,11 @@ function PlasmicDashboard__RenderFunc(props: {
                   data-plasmic-override={overrides.sidebarMenu1}
                   className={classNames(projectcss.all, sty.sidebarMenu1)}
                 >
-                    <hr style={{ padding: "4px" }} />
+                    <hr style={{ margin: "8px"}} />
                  
                     
                   <div
+                  onClick={() => setActiveSection("Dashboard")}
                     data-plasmic-name={"frame"}
                     data-plasmic-override={overrides.frame}
                     className={classNames(projectcss.all, sty.frame)}
@@ -390,6 +397,7 @@ function PlasmicDashboard__RenderFunc(props: {
                   </div>
                 
                   <div
+                  onClick={() => setActiveSection("Datanintegration")}
                     data-plasmic-name={"frame2"}
                     data-plasmic-override={overrides.frame2}
                     className={classNames(projectcss.all, sty.frame2)}
@@ -545,9 +553,12 @@ function PlasmicDashboard__RenderFunc(props: {
               </div>
               
               
-              {/* Display differenct sections on sidebar click */}
-              
-       
+              {/* dynamic section - Display differenct sections on sidebar click */}
+              <div className={classNames(projectcss.all, sty.dynamicSection)}>
+                {activeSection === "Dashboard" && <DashboardSection />}
+                {activeSection === "Datanintegration" && <Dinaggregation />}
+              </div>
+
             </div>
           </div>
         </div>
