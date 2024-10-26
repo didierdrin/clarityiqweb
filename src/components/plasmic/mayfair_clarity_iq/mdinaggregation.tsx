@@ -82,6 +82,7 @@ import CalendarIcon from "./icons/PlasmicIcon__Calendar"; // plasmic-import: c4V
 import FChatIcon from "./icons/PlasmicIcon__FChat"; // plasmic-import: 6b5_xU8yWQFY/icon
 import CandlestickChartIcon from "./icons/PlasmicIcon__CandlestickChart"; // plasmic-import: ZYZreGho0u9b/icon
 import WhiskersIcon from "./icons/PlasmicIcon__Whiskers"; // plasmic-import: 6QYFPKXZ9GqK/icon
+//import { useNavigation } from "./NavigationContext";
 
 createPlasmicElementProxy;
 
@@ -212,6 +213,14 @@ function PlasmicDinaggregation__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
+  //const { setActivePage } = React.useNavigation();
+   
+  //const { setActivePage } = useNavigation(); 
+
+  // React.useEffect(() => {
+  //   setActivePage("Dinaggregation");
+  // }, [ setActivePage]);
+
   return (
     
      
@@ -222,11 +231,7 @@ function PlasmicDinaggregation__RenderFunc(props: {
             sty.dynamicSection
           )}
         >
-          <div
-            data-plasmic-name={"wireframe3"}
-            data-plasmic-override={overrides.wireframe3}
-            className={classNames(projectcss.all, sty.wireframe3)}
-          >
+        
             <div
               data-plasmic-name={"dataTable"}
               data-plasmic-override={overrides.dataTable}
@@ -1094,8 +1099,6 @@ function PlasmicDinaggregation__RenderFunc(props: {
              
             </div>
           </div>
-        </div>
-      
     
   )
 }

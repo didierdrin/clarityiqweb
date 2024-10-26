@@ -31,8 +31,15 @@ import Group2Icon from "./icons/PlasmicIcon__Group2";
 import EllipseIcon from "./icons/PlasmicIcon__Ellipse";
 import chartRt8T6Nkpz3Qc from "./images/chart.svg";
 import Menu5Icon from "./icons/PlasmicIcon__Menu5"; // plasmic-import: 7KzZjpFqGdS5/icon
+//import { useNavigation } from "./NavigationContext";
 
 export default function DashboardSection() {
+  //   const { setActivePage } = useNavigation();
+
+  // React.useEffect(() => {
+  //   setActivePage("Dashboard");
+  // }, [setActivePage]);
+
   return (
     <div className={classNames(projectcss.all, sty.dynamicSection)}>
       <div className={classNames(projectcss.all, sty.text__xL7U)}>Dashboard</div>
@@ -119,7 +126,7 @@ export default function DashboardSection() {
           <img src={chartRt8T6Nkpz3Qc} alt="Chart" className={sty.img} />
         </div>
       </div>
-      
+
     </div>
   );
 }
