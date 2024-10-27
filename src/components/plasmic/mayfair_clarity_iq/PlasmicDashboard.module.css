@@ -73,6 +73,11 @@
   top: 26px;
   right: 80px;
   overflow: hidden;
+  cursor: pointer; 
+}
+
+.svg__m6Bdn:hover {
+  color:rgba(16, 151, 70, 1);
 }
 .svg__qc9Jx {
   object-fit: cover;
@@ -87,6 +92,11 @@
   top: 26px;
   right: 120px;
   overflow: hidden;
+  cursor: pointer; 
+}
+
+.svg__qc9Jx:hover {
+  color:rgba(16, 151, 70, 1);
 }
 .avatar1 {
   background: rgba(210, 192, 249, 1);
@@ -98,6 +108,13 @@
   right: 28px;
   overflow: hidden;
   border-radius: 18px;
+  cursor: pointer; 
+  
+}
+
+.avatar1:hover {
+  opacity: 0.7;
+  
 }
 .rectangle {
   background: url("./images/rectangle.png") 0px 0px / 36px 36px no-repeat;
@@ -117,6 +134,7 @@
   top: 16px;
   left: 28px;
   border-radius: 4px;
+  cursor: pointer; 
 }
 .text__s9T8Z {
   display: block;
@@ -430,6 +448,10 @@
   left: 48px;
   width: 196px;
 }
+
+.frame5:hover .customerInsights {
+  color: #fff; 
+}
 .svg__jcOz9 {
   object-fit: cover;
   max-width: 100vw;
@@ -444,6 +466,10 @@
   left: 16px;
   overflow: hidden;
 }
+
+.frame5:hover .svg__jcOz9 {
+  color: #fff; 
+}
 .frame6 {
   background: rgba(0, 0, 0, 0);
   width: 260px;
@@ -454,6 +480,11 @@
   left: 0px;
   overflow: hidden;
   border-radius: 4px;
+  cursor: pointer; 
+}
+
+.frame6:hover {
+  background: rgba(16, 151, 70, 1);
 }
 .text___2Fgn0 {
   display: block;
@@ -467,6 +498,10 @@
   top: 9px;
   left: 48px;
   width: 196px;
+}
+
+.frame6:hover .text___2Fgn0 {
+  color: #fff; 
 }
 .svg__hmSsm {
   object-fit: cover;
@@ -482,6 +517,10 @@
   left: 16px;
   overflow: hidden;
 }
+
+.frame6:hover .svg__hmSsm {
+  color: #fff; 
+}
 .frame7 {
   background: rgba(0, 0, 0, 0);
   width: 260px;
@@ -492,6 +531,11 @@
   left: 0px;
   overflow: hidden;
   border-radius: 4px;
+  cursor: pointer; 
+}
+
+.frame7:hover {
+  background: rgba(16, 151, 70, 1);
 }
 .text__r9EbL {
   display: block;
@@ -505,6 +549,9 @@
   top: 9px;
   left: 48px;
   width: 196px;
+}
+.frame7:hover .text__r9EbL {
+  color: #fff; 
 }
 .svg__bDe5I {
   object-fit: cover;
@@ -520,6 +567,10 @@
   left: 16px;
   overflow: hidden;
 }
+
+.frame7:hover .svg__bDe5I {
+  color: #fff; 
+}
 .image {
   background: url("./images/image19.png") 0px -21px / 268px 202px no-repeat;
   transform: translate(0px, -0.5px);
@@ -531,6 +582,7 @@
   left: 0px;
   border-radius: 19px;
   margin: 7px;
+  cursor: pointer;
 }
 .text__xL7U {
   display: block;
@@ -554,7 +606,9 @@
   position: absolute;
   top: 114px;
   left: 597px;
+  cursor: pointer; 
 }
+
 .frame8 {
   background: rgba(244, 240, 253, 1);
   width: 156px;
@@ -565,6 +619,10 @@
   left: 0px;
   overflow: hidden;
   border-radius: 18px;
+}
+
+.frame8:hover {
+  background: rgba(144, 240, 153, 1);
 }
 .todayOct202022 {
   display: block;
@@ -578,6 +636,7 @@
   top: 7px;
   left: 12px;
 }
+
 .container3 {
   background: rgba(255, 255, 255, 1);
   box-shadow: inset 0px 0px 0px 1px rgba(242, 243, 245, 1);
@@ -2747,6 +2806,10 @@
   overflow: hidden;
   border-radius: 4px;
 }
+
+.frame43:hover {
+  background: rgba(16, 151, 70, 1);
+}
 .riskIdentification {
   display: block;
   font-size: 14px;
@@ -2759,6 +2822,11 @@
   top: 9px;
   left: 48px;
   width: 196px;
+  cursor: pointer;
+}
+
+.frame43:hover .riskIdentification {
+  color: #fff;
 }
 .svg___9Ngv4 {
   object-fit: cover;
@@ -2773,6 +2841,10 @@
   top: 8px;
   left: 16px;
   overflow: hidden;
+}
+
+.frame43:hover .svg___9Ngv4 {
+  color: #fff; 
 }
 .svg___32Ura {
   object-fit: cover;

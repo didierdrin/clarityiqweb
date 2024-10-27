@@ -91,9 +91,10 @@ import chartRt8T6Nkpz3Qc from "./images/chart.svg"; // plasmic-import: RT8T6nkpz
 import DashboardSection from "./mdashboardsection";
 import Dinaggregation, { PlasmicDinaggregation } from "./mdinaggregation";
 import Thirdfinancialperformance from "../../Thirdfinancialperformance";
+import PlasmicWorkflows from "./mbusinessprocess";
 //import { useNavigation } from "./NavigationContext";
 //import Thirdfinancialperformance from "../../Thirdfinancialperformance";
-
+//import { useRouter } from "next/navigation"; 
 createPlasmicElementProxy;
 
 export type PlasmicDashboard__VariantMembers = {};
@@ -285,7 +286,7 @@ function PlasmicDashboard__RenderFunc(props: {
   const $refs = refsRef.current;
 
   const [activeSection, setActiveSection] = React.useState<string>("Dashboard"); 
-  
+  //const router = useRouter();
   return (
     <React.Fragment>
       <div className={projectcss.plasmic_page_wrapper}>
@@ -446,6 +447,7 @@ function PlasmicDashboard__RenderFunc(props: {
                     />
                   </div>
                   <div
+                  onClick={() => setActiveSection("BusinessProcess")}
                     data-plasmic-name={"frame4"}
                     data-plasmic-override={overrides.frame4}
                     className={classNames(projectcss.all, sty.frame4)}
@@ -541,7 +543,7 @@ function PlasmicDashboard__RenderFunc(props: {
                 >
                   {"Strategic Planning"}
                 </div>
-                <WhiskersIcon
+                <SearchIcon
                   className={classNames(projectcss.all, sty.svg___9Ngv4)}
                   role={"img"}
                 />
@@ -559,6 +561,7 @@ function PlasmicDashboard__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.dynamicSection)}>
                 {activeSection === "Dashboard" && <DashboardSection />}
                 {activeSection === "Dinaggregation" && <PlasmicDinaggregation />}
+                {activeSection === "BusinessProcess" && <PlasmicWorkflows />}
               </div>
 
             </div>

@@ -21,6 +21,14 @@
 .root > * {
   grid-column: 4;
 }
+
+.dynamicSection {
+  position: relative;
+  top: 100px;
+  left: 300px;
+  width: 300px;
+}
+
 .wireframe7 {
   background: rgba(255, 255, 255, 1);
   width: 100vw;
@@ -48,7 +56,7 @@
   line-height: 48px;
   color: rgba(49, 54, 66, 1);
   position: absolute;
-  top: 142px;
+  top: 12px;
   left: 32px;
   transform: skew(-0.057295760414500616deg, 0deg);
   transform-origin: top left;
@@ -61,7 +69,7 @@
   display: block;
   transform-origin: top left;
   position: absolute;
-  top: 118px;
+  top: 12px;
   left: 938px;
   overflow: hidden;
   border-radius: 4px;
@@ -99,7 +107,7 @@
   height: 35px;
   display: block;
   position: absolute;
-  top: 118px;
+  top: 12px;
   left: 1037px;
   border-radius: 6px;
 }

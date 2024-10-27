@@ -53,7 +53,7 @@ export default function DashboardSection() {
       </div>
 
       <div className={classNames(projectcss.all, sty.container3)}>
-        <div className={classNames(projectcss.all, sty.sales)}>clarity analysis</div>
+        <div className={classNames(projectcss.all, sty.sales)}>Clarity analysis</div>
         <div className={classNames(projectcss.all, sty.container4)}>
           <div className={classNames(projectcss.all, sty.text__vUrcQ)}>23k</div>
           <CurrencyDollar1Icon className={classNames(projectcss.all, sty.svg__zcSzp)} role="img" />
